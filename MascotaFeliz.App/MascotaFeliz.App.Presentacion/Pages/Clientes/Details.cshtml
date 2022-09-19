@@ -1,0 +1,21 @@
+﻿@page
+@model MascotaFeliz.App.Presentacion.Pages.DetailsModel
+@{
+}
+<h2>Datos detallados del cliente</h2>
+<div>
+    Id Persona: @Model.Cliente.idPersona
+</div>
+<div>
+    Nombres: @Model.Cliente.nombres
+</div>
+<div>
+    Apellidos: @Model.Cliente.apellidos
+</div>
+<div>
+    Telefono: @Model.Cliente.telefono
+</div>
+<div>
+    Dirección: @Model.Cliente.direccion
+</div>
+<a asp-page="./List" class="btn-default">Volver a la lista de los clientes</a>

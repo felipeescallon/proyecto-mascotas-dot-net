@@ -1,0 +1,40 @@
+﻿@page
+@model MascotaFeliz.App.Presentacion.Pages.EditModel
+@{
+    int clienteId=Model.Cliente.Id;
+}
+<h2>Edición de los datos del cliente</h2>
+<form method="post">
+    <input type="hidden" asp-for="Cliente.Id"/>
+    <div class="form-group">
+        <label asp-for="Cliente.idPersona"></label>
+        <input asp-for="Cliente.idPersona" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.idPersona"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.nombres"></label>
+        <input asp-for="Cliente.nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.apellidos"></label>
+        <input asp-for="Cliente.apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.telefono"></label>
+        <input asp-for="Cliente.telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.direccion"></label>
+        <input asp-for="Cliente.direccion" class="form-control">
+        <span class="text-danger" asp-validation-for="Cliente.direccion"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    
+    @* <button type="submit" class="btn btn-primary">Borrar</button> *@
+    
+
+</form>
+<a asp-page="./List" class="btn-default">Volver a la lista de clientes</a>

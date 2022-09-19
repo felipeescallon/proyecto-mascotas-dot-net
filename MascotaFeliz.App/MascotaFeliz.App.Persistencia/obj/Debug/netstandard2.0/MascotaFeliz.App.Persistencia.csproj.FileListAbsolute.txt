@@ -1,0 +1,4 @@
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.0\MascotaFeliz.App.Persistencia.csprojAssemblyReference.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.0\MascotaFeliz.App.Persistencia.AssemblyInfoInputs.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.0\MascotaFeliz.App.Persistencia.AssemblyInfo.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.0\MascotaFeliz.App.Persistencia.csproj.CoreCompileInputs.cache
